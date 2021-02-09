@@ -12,4 +12,4 @@ function areYouHere(arr1, arr2) {
     return false;
 }
 
-// Polynomial time O(n^k), there is a nested array which means that there are 2 Ns that could be going at once which would compound when you add more arguments.
+// Exponential time O(2^n), there is a nested array which means that there are 2 Ns that could be going at once which would compound when you add more arguments.
