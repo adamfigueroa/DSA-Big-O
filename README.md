@@ -110,12 +110,14 @@ function efficientSearch(array, item) {
     }
     return -1;
 }
+
 9. Random element
 What is the Big O of the following algorithm? Explain your answer
 
 function findRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
+
 10. What Am I?
 What does the following algorithm do? What is the Big O of the following algorithm? Explain your answer
 
@@ -128,6 +130,7 @@ function isWhat(n) {
     }
     return true;
 }
+
 11. Tower of Hanoi
 The Tower of Hanoi is a very famous mathematical puzzle (some call it game!). This is how it goes:
 
@@ -150,6 +153,7 @@ Implement your algorithm using recursion. Your program should display each movem
 If you are given 5 disks, how do the rods look like after 7 recursive calls?
 How many moves are needed to complete the puzzle with 3 disks? with 4 disks? with 5 disks?
 What is the runtime of your algorithm?
+
 12. Iterative version
 Solve the drills 1 - 7 from your previous checkpoint (Recursion) iteratively.
 
